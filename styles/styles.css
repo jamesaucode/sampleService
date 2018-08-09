@@ -148,8 +148,8 @@ button:disabled {
     display: flex;
     flex-direction: column;
     margin: 80px 40px;
-    background-color: rgba(0, 182, 24, 0.5);
-    max-height: fit-content; }
+    background-color: #01f021;
+    min-height: fit-content; }
     .content--graph-box__title {
       text-transform: uppercase;
       font-weight: 600;

@@ -84,8 +84,8 @@
     display: flex;
     flex-direction: column;
     margin: $big-gutter $medium-gutter;
-    background-color: rgba(0, 182, 24, 0.5);
-    max-height: fit-content;
+    background-color: rgb(1, 240, 33);
+    min-height: fit-content;
 
     &__title {
       text-transform: uppercase;
