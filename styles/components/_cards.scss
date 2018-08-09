@@ -15,9 +15,9 @@
     }
   }
   &__input {
-    padding: 5px;
+    padding: 10px;
     border: 0;
-    border-radius: 0;
+    border-radius: 3px;
     margin-top: $small-gutter;
     width: 20em;
     color: black;
@@ -186,6 +186,6 @@
   }
   .card1,.card2,.card3 {
     margin: 0;
-    height: fit-content;
+    height: 55em;
   }
 }

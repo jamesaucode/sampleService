@@ -14,6 +14,7 @@
 .foot {
     display:grid;
     height: fit-content;
+    max-width: 100vw;
     grid-template-areas: " . follow about social . ";
     grid-template-columns: repeat(5,1fr);
     grid-row: auto;
@@ -90,7 +91,20 @@
 
 @media screen and (max-width: 688px) {
     .foot {
-        grid-template-areas: "follow about social";
-        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "follow"
+        "about"
+        "social";
+        grid-template-columns: 1fr;
+        grid-template-rows: 5em;
+        grid-row-gap: $small-gutter;
+
+        &__text {
+            margin-left: $small-gutter;
+            margin-right: $small-gutter;
+            &--header {
+                margin:0;
+            }
+        }
     }
 }
