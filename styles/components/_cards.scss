@@ -42,12 +42,12 @@
     border: 0;
     background-color: #ffffff;
     color: $color-grey-dark;
-    font-size: 1.25em;
+    font-size: 1em;
     text-align: center;
     margin: $big-gutter 0;
-    padding: 1em;
+    padding: 0.8em;
     width: 50%;
-    border-radius: 2rem;
+    border-radius: 1.5em;
     transition: all 0.5s ease-out;
     &--back {
       transition: all 0s;
