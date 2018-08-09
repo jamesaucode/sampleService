@@ -52,7 +52,7 @@ button:disabled {
   justify-content: center; }
 
 .navigation {
-  font-size: 1.25em;
+  font-size: 0.7em;
   letter-spacing: 3px;
   text-transform: uppercase;
   height: fit-content;
@@ -202,15 +202,15 @@ button:disabled {
     grid-template-rows: fit-content; }
     .content__title {
       text-align: center;
-      margin-left: 0;
-      margin-right: 0; }
+      margin-left: 1.25em;
+      margin-right: 1.25em; }
     .content--graph-box {
       margin: 2.5em 0; }
       .content--graph-box__caption {
         margin: 0;
         text-align: center;
         margin: 1.25em auto;
-        width: calc(1em * 8); }
+        width: calc(1em * 15); }
     .content--text-box {
       display: flex;
       flex-direction: column;

@@ -159,8 +159,8 @@
 
     &__title {
       text-align: center;
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: $small-gutter;
+      margin-right: $small-gutter;
     }
     &--graph-box {
       margin: $medium-gutter 0;
@@ -168,7 +168,7 @@
         margin: 0;
         text-align: center;
         margin: $small-gutter auto;
-        width:calc(1em * 8);
+        width:calc(1em * 15);
       }
     }
     &--text-box {
