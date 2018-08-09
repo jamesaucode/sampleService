@@ -148,9 +148,8 @@ button:disabled {
     display: flex;
     flex-direction: column;
     margin: 80px 40px;
-    background-color: rgba(0, 182, 24, 0.514);
-    max-height: fit-content;
-    max-width: 100%; }
+    background-color: rgba(0, 182, 24, 0.5);
+    max-height: fit-content; }
     .content--graph-box__title {
       text-transform: uppercase;
       font-weight: 600;
@@ -193,16 +192,19 @@ button:disabled {
 
 @media screen and (max-width: 688px) {
   .content {
-    grid-template-areas: "text text text" "text text text" "graph graph graph" "graph graph graph";
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "text text" "graph graph";
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto; }
     .content__title {
       text-align: center;
       margin-left: 0;
       margin-right: 0; }
+    .content--graph-box {
+      margin: 40px 0; }
     .content--text-box {
       display: flex;
       flex-direction: column;
+      align-items: center;
       margin-left: 0; }
     .content__paragraph {
       width: 80%;
@@ -526,7 +528,8 @@ button:disabled {
   .cards {
     grid-template-areas: "card1" "card2" "card3";
     grid-template-columns: 1fr;
-    grid-template-rows: auto; }
+    grid-template-rows: auto;
+    grid-row-gap: 40px; }
   .card1, .card2, .card3 {
     margin: 0;
     height: 50em; } }

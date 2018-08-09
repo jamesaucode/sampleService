@@ -84,9 +84,8 @@
     display: flex;
     flex-direction: column;
     margin: $big-gutter $medium-gutter;
-    background-color: rgba(0, 182, 24, 0.514);
+    background-color: rgba(0, 182, 24, 0.5);
     max-height: fit-content;
-    max-width: 100%;
 
     &__title {
       text-transform: uppercase;
@@ -148,11 +147,9 @@
 @media screen and (max-width: 688px) {
   .content {
     grid-template-areas:
-      "text text text"
-      "text text text"
-      "graph graph graph"
-      "graph graph graph";
-    grid-template-columns: repeat(3,1fr);
+      "text text"
+      "graph graph";
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
     &__title {
@@ -160,9 +157,13 @@
       margin-left: 0;
       margin-right: 0;
     }
+    &--graph-box {
+      margin: $medium-gutter 0;
+    }
     &--text-box {
       display: flex;
       flex-direction: column;
+      align-items: center;
       margin-left: 0;
     }
     &__caption {

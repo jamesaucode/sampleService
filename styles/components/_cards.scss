@@ -184,6 +184,7 @@
       "card3";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    grid-row-gap: $medium-gutter;
   }
   .card1,.card2,.card3 {
     margin: 0;
