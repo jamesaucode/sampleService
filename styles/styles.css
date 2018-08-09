@@ -301,7 +301,8 @@ button:disabled {
     font-weight: 700; }
   .content3__title-box {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 1.25em; }
 
 .footer {
   display: grid;
@@ -464,7 +465,6 @@ button:disabled {
   align-items: center;
   height: 100%;
   border-radius: 5px;
-  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
   margin: 2.5em;
   background-color: #b401b4;
@@ -493,7 +493,6 @@ button:disabled {
   align-items: center;
   height: 100%;
   border-radius: 5px;
-  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
   margin: 2.5em;
   background-color: #0059ff;
@@ -522,7 +521,6 @@ button:disabled {
   height: 100%;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
   margin: 2.5em;
   transform: rotateY(0deg);
