@@ -77,6 +77,7 @@
     grid-area: text;
     margin-top: $big-gutter;
     margin-left: $big-gutter;
+    min-width: 100%;
   }
 
   &--graph-box {
@@ -85,6 +86,7 @@
     flex-direction: column;
     margin: $big-gutter $medium-gutter;
     background-color: rgb(1, 240, 33);
+    min-width: 100%;
     min-height: fit-content;
 
     &__title {
@@ -115,7 +117,7 @@
     }
     &__wrapper {
       text-align: center;
-      margin: $small-gutter;
+      // margin: $small-gutter;
     }
     &__wrapper2 {
       text-align: center;

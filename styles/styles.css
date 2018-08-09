@@ -142,13 +142,15 @@ button:disabled {
   .content--text-box {
     grid-area: text;
     margin-top: 80px;
-    margin-left: 80px; }
+    margin-left: 80px;
+    min-width: 100%; }
   .content--graph-box {
     grid-area: graph;
     display: flex;
     flex-direction: column;
     margin: 80px 40px;
     background-color: #01f021;
+    min-width: 100%;
     min-height: fit-content; }
     .content--graph-box__title {
       text-transform: uppercase;
@@ -173,8 +175,7 @@ button:disabled {
       display: flex;
       align-items: center; }
     .content--graph-box__wrapper {
-      text-align: center;
-      margin: 20px; }
+      text-align: center; }
     .content--graph-box__wrapper2 {
       text-align: center; }
   .content__title {
@@ -225,13 +226,12 @@ button:disabled {
 .fa {
   color: #5f5f5f;
   font-size: 2em;
-  line-height: inherit;
   padding: 0; }
   .fa-facebook, .fa-twitter, .fa-github {
     color: #c9c9c9;
     margin: 0 20px; }
   .fa-comment-o, .fa-briefcase, .fa-usd, .fa-user-o {
-    font-size: 3.5em; }
+    font-size: 3em; }
   .fa-arrow-left {
     font-size: 1em; }
 
