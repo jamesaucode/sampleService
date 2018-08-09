@@ -1,0 +1,191 @@
+.cards {
+  display: grid;
+  grid-template-areas: "card1 card2 card3";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: auto;
+
+  &__title {
+    margin-top: $medium-gutter;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    &--back {
+      margin-top: 160px;
+    }
+  }
+  &__input {
+    padding: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-top: $small-gutter;
+    width: 20em;
+    color: black;
+  }
+  &__photo {
+    height: 400px;
+    width: 100%;
+  }
+  &__text-box {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin-top: $small-gutter;
+  }
+  &__caption {
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: $small-gutter 0;
+  }
+  &__button {
+    border: 0;
+    background-color: #ffffff;
+    color: $color-grey-dark;
+    font-size: 1em;
+    margin: $big-gutter 0;
+    padding: 1em;
+    width: 50%;
+    border-radius: 2rem;
+    transition: all 0.5s ease-out;
+    &--back {
+      transition: all 0s;
+      padding: 10px 50px;
+      width: fit-content;
+      border-radius: 20px;
+      margin: 0;
+      margin-bottom: $small-gutter;
+      border: 0;
+      background-color: #ffffff;
+      color: $color-grey-dark;
+      font-size: 1em;
+      &:active {
+        opacity: 0;
+      }
+      &:hover {
+        transform: none;
+      }
+    }
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+      color: inherit;
+    }
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}
+.card1 {
+  &__front {
+    grid-area: card1;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    background-color: rgb(180, 1, 180);
+    transform: rotateY(0deg);
+    transition: all 1s;
+  }
+  &__back {
+    grid-area: card1;
+    border: 1px solid lightgrey;
+    // height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    background-color: rgb(180, 1, 180);
+    transition: all 1s;
+  }
+}
+.card2 {
+  &__front {
+    grid-area: card2;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    background-color: rgb(0, 89, 255);
+    transform: rotateY(0deg);
+    transition: all 1s;
+  }
+  &__back {
+    grid-area: card2;
+    border: 1px solid lightgrey;
+    // height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    background-color: rgb(0, 89, 255);
+    transition: all 1s;
+  }
+  // grid-area: card2;
+  // border: 1px solid lightgrey;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // border-radius: 5px;
+  // box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+  // max-width: 100%;
+  // margin: $medium-gutter;
+  // background-color: rgb(0, 89, 255);
+}
+.card3 {
+  &__front {
+    grid-area: card3;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    transform: rotateY(0deg);
+    background-color: rgb(1, 165, 1);
+  }
+  &__back {
+    grid-area: card3;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: $medium-gutter;
+    background-color: rgb(1, 165, 1);
+  }
+  //   background: linear-gradient(to bottom left,  rgb(0, 98, 255),rgb(0, 217, 255));
+}
+
+@media screen and (max-width: 688px) {
+  .cards {
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .card1,.card2,.card3 {
+    margin: 0;
+    height: 50em;
+  }
+}

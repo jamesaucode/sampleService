@@ -1,0 +1,88 @@
+.footer {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    color:white;
+    background-color: $color-purple;
+
+    &__text {
+        font-size: 1em;
+        font-weight: 300;
+    }
+}
+
+.foot {
+    display:grid;
+    height: fit-content;
+    grid-template-areas: " . about follow social . ";
+    grid-template-columns: repeat(5,1fr);
+    grid-row: auto;
+    grid-column-gap: $small-gutter;
+
+    &__about {
+        grid-area: about;
+    }
+    &__follow {
+        grid-area: follow;
+    }
+    &__social {
+        grid-area: social;  
+    }
+    &__copyright {
+        color:white;
+        text-align: center;
+    }
+    &__text {
+        font-size: 1em;
+        font-weight: 400;
+        text-align: left;
+        color: $color-grey-light-2;
+        margin:$small-gutter 0 $medium-gutter 0;
+
+        &--header {
+            margin-top: $small-gutter;
+            margin-left: $small-gutter;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+    }
+}
+
+.contact {
+    display: grid;
+    max-width: 500px;
+    margin: $small-gutter auto;
+    grid-template-areas: "fname lname"
+    "email tel"
+    "msg msg"
+    "msg msg";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,30px) 100px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    &-submit {
+        padding: 5px;
+        border:0;
+        border-radius: 0;
+        &:hover {
+            color: $color-grey;
+            background-color: white;
+        }
+    }
+    &-msg {
+        grid-area: msg;
+    }
+    &-input {
+        padding: 3px;
+        border:1px solid $color-grey;
+        width: 100%;
+        border-radius: 3px;
+    }
+    &__title {
+        font-size: 3em;
+        font-weight: 700;  
+        margin: $small-gutter 0;
+        text-align: center;
+    }
+}

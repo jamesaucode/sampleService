@@ -1,0 +1,15 @@
+.content3 {
+  display: grid;
+  min-height: fit-content;
+  max-width: 100vw;
+
+  &__title {
+    font-size: 3em;
+    color: black;
+    font-weight: 700;
+  }
+  &__title-box {
+    display: flex;
+    justify-content: center;
+  }
+}

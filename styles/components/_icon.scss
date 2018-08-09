@@ -1,0 +1,16 @@
+.fa {
+    color: $color-grey-dark;
+    font-size: 2em;
+    line-height: inherit;
+    padding: 0;
+    &-facebook,&-twitter,&-github  {
+        color:$color-grey-light-2;
+       margin: 0 $small-gutter;
+    }
+    &-comment-o,&-briefcase,&-usd,&-user-o {
+        font-size: 3.5em;
+    }
+    &-arrow-left {
+        font-size: 1em;
+    }
+}

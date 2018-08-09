@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/styles.css" />
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+</head>
+
+<body>
+    <div class="header-bar">
+        <a href="#">
+            <img src="https://www.freelogodesign.org/Content/img/slide-logo-2.png" alt="Company logo" class="logo">
+        </a>
+    </div>
+    <div class="navigation-bar">
+        <div class="button-bar">
+            <a href="#" class="navigation">Home</a>
+            <a href="#service" class="navigation">Services</a>
+            <a href="#mission" class="navigation">Mission</a>
+            <a href="#feedback" class="navigation">Feedback</a>
+            <a href="#contact" class="navigation">Contact</a>
+        </div>
+    </div>
+    <div class="main-frame">
+        <span class="main-frame__title">
+            Customized website for you
+        </span>
+        <button class="button--enter">
+            Chat with us!
+        </button>
+    </div>
+    <div id="mission" class="content">
+        <div class="content--text-box">
+            <h2 class="content__title">
+                We guarantee customer satisfaction
+            </h2>
+            <p class="content__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quod labore et dolor sapiente ex ipsam sunt consequuntur
+                excepturi, placeat nesciunt optio sed qui possimus voluptatibus quibusdam illo quisquam. Ratione.
+                <br />
+                <br/> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero alias vel quia eum ullam accusantium autem
+                soluta labore ab error voluptates iusto earum, consequuntur eligendi.
+            </p>
+            <button class="content__button">
+                Talk to our expert
+            </button>
+        </div>
+        <div class="content--graph-box">
+            <div class="content--graph-box__icon1">
+                <div class="content--graph-box__wrapper">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    <p class="content--graph-box__title">
+                        Livechat support
+                    </p>
+                    <p class="content--graph-box__caption">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus possimus nihil.
+                    </p>
+                </div>
+                <div class="content--graph-box__wrapper2">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <p class="content--graph-box__title">
+                        Boost your business
+                    </p>
+                    <p class="content--graph-box__caption">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum enim natus alias beatae quasi placeat.
+                    </p>
+                </div>
+            </div>
+            <div class="content--graph-box__icon2">
+                <div class="content--graph-box__wrapper">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="content--graph-box__title">
+                        Affordable
+                    </p>
+                    <p class="content--graph-box__caption">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus possimus nihil.
+                    </p>
+                </div>
+                <div class="content--graph-box__wrapper2">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <p class="content--graph-box__title">
+                        Customer-oriented
+                    </p>
+                    <p class="content--graph-box__caption">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum enim natus alias beatae quasi placeat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content3__title-box">
+        <span class="content3__title">
+            Services
+        </span>
+    </div>
+    <div id="service" class="content3">
+        <div class="cards">
+            <div id="card1__front" class="card1 card1__front">
+                <img class="cards__photo" src="./image/ecommerce.jpg" alt="ecommerce">
+                <h1 class="cards__title">Ecommerce</h1>
+                <div class="cards__text-box">
+                    <p class="cards__caption">$100</p>
+                    <p class="cards__caption">Great for new businesses</p>
+                    <p class="cards__caption">Modern looking design</p>
+                    <p class="cards__caption">Clean and easy to navigate</p>
+                </div>
+                <button onclick="disappear()" class="cards__button">Schedule a call</button>
+            </div>
+            <div id="card1__back" class="card1 card1__back">
+                <h1 class="cards__title cards__title--back">Leave your contact</h1>
+                <div class="cards__text-box">
+                    <input class="cards__input" type="text" placeholder="Name">
+                    <input class="cards__input" type="text" placeholder="Telephone">
+                    <input class="cards__input" type="text" placeholder="Available Time (in PDT)">
+                    <input class="cards__input" type="text" placeholder="Business type (optional)">
+                </div>
+                <button class="cards__button">Submit</button>
+                <button onclick="disappear()" class="cards__button--back">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="card2__front" class="card2 card2__front">
+                <img src="./image/webapp.jpg" alt="webapp" class="cards__photo">
+                <h1 class="cards__title">Webapp</h1>
+                <div class="cards__text-box">
+                    <p class="cards__caption">$200</p>
+                    <p class="cards__caption">Great for new businesses</p>
+                    <p class="cards__caption">Highly customized</p>
+                    <p class="cards__caption">Suitable for both personal or business</p>
+                </div>
+                <button onclick="disappear2()" class="cards__button">Schedule a call</button>
+            </div>
+            <div id="card2__back" class="card2 card2__back">
+                <h1 class="cards__title cards__title--back">Leave your contact</h1>
+                <div class="cards__text-box">
+                    <input class="cards__input" type="text" placeholder="Name">
+                    <input class="cards__input" type="text" placeholder="Telephone">
+                    <input class="cards__input" type="text" placeholder="Available Time (in PDT)">
+                    <input class="cards__input" type="text" placeholder="Business type (optional)">
+                </div>
+                <button class="cards__button">Submit</button>
+                <button onclick="disappear2()" class="cards__button--back">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="card3__front"class="card3 card3__front">
+                <img src="./image/general.jpg" alt="webapp" class="cards__photo">
+                <h1 class="cards__title">General</h1>
+                <div class="cards__text-box">
+                    <p class="cards__caption">$300</p>
+                    <p class="cards__caption">Multi-purpose webpage</p>
+                    <p class="cards__caption">Cutting-edge features</p>
+                    <p class="cards__caption">Clean and easy to navigate</p>
+                </div>
+                <button onclick="disappear3()" class="cards__button">Schedule a call</button>
+            </div>
+            <div id="card2__back" class="card3 card3__back">
+                <h1 class="cards__title cards__title--back">Leave your contact</h1>
+                <div class="cards__text-box">
+                    <input class="cards__input" type="text" placeholder="Name">
+                    <input class="cards__input" type="text" placeholder="Telephone">
+                    <input class="cards__input" type="text" placeholder="Available Time (in PDT)">
+                    <input class="cards__input" type="text" placeholder="Business type (optional)">
+                </div>
+                <button class="cards__button">Submit</button>
+                <button onclick="disappear3()" class="cards__button--back">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="feedback" class="content2">
+        <span class="content2__title">
+            What our customer has to say
+        </span>
+        <div class="content2__customer">
+            <p class="content2__name">
+                Josh
+            </p>
+            <img src="https://kahoot.com/files/2017/05/bryan_trans.png" alt="avatar" class="avatar">
+            <p class="content2__paragraph">
+                They helped me developed my webpage from scratch. They were professional and patient. Whenever I have qusetions, they respond
+                almost immediately. If you are starting a business and needs a website, choose them!
+            </p>
+            <p class="content2__name">
+                Adam
+            </p>
+            <img src="http://www.creditlenders.info/wp-content/uploads/cartoon-avatar-portrait-of-man-set-2-clipart-the-arts-cartoon-avatar.png"
+                alt="avatar" class="avatar">
+            <p class="content2__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem exercitationem labore officiis deleniti blanditiis debitis
+                minus architecto. Veniam labore consectetur ut quis molestias. Reiciendis consequatur dolores eligendi accusamus
+                facilis necessitatibus.
+            </p>
+        </div>
+        <div class="content2__customer">
+            <p class="content2__name">
+                Ethan
+            </p>
+            <img src="https://image.pbs.org/poster_images/assets/tq4poyo7fiy8vu6ury80.png.resize.710x399.png" alt="avatar" class="avatar">
+            <p class="content2__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident omnis repudiandae perspiciatis iure laudantium quibusdam
+                voluptate totam. Id quibusdam cumque explicabo! Soluta ipsam error iure, dolore quidem alias eveniet.
+            </p>
+            <p class="content2__name">
+                Lisa
+            </p>
+            <img src="https://image.pbs.org/poster_images/assets/t6p3e694ug686iptefcn.png.resize.710x399.png" alt="avatar" class="avatar">
+            <p class="content2__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae expedita alias quibusdam ad asperiores unde
+                culpa, reprehenderit, excepturi suscipit rem cum possimus nam illo fuga, nostrum dolore error incidunt!
+            </p>
+        </div>
+    </div>
+    <div id="contact" class="footer">
+        <!-- <h1 class="contact__title">Contact us</h1>
+        <form action="">
+            <div class="contact">
+                <input type="text" class="contact-input" placeholder="First Name">
+                <input type="text" class="contact-input" placeholder="Last Name">
+                <input type="text" class="contact-input" placeholder="Email">
+                <input type="text" class="contact-input" placeholder="Phone Number">
+                <textarea class="contact-msg" name="message" id="msg" placeholder="Ask us anything"></textarea>
+                <input class="contact-submit"type="submit" value="Submit">
+            </div>
+        </form> -->
+        <div class="foot">
+            <div class="foot__white"></div>
+            <div class="foot__about">
+                <h1 class="foot__text--header">About Us</h1>
+                <p class="foot__text">This is a template page for service providing ecommerce page.
+                    <br/>
+                    <br/>Created with CSS Flexbox, Grid and Javascript</p>
+            </div>
+            <div class="foot__follow">
+                <h1 class="foot__text--header">Follow Us</h1>
+                <div class="social-media">
+                    <a class="fa fa-twitter" aria-hidden="true"></a>
+                    <a class="fa fa-facebook" aria-hidden="true"></a>
+                    <a class="fa fa-github" aria-hidden="true"></a>
+                </div>
+            </div>
+            <div class="foot__social">
+                <h1 class="foot__text--header">Customer Service</h1>
+                <p class="foot__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui nobis voluptatibus, voluptatum minima laboriosam
+                    officia cum. Dolores tempora eligendi.</p>
+            </div>
+            <div class="foot__white"></div>
+        </div>
+        <p class="foot__copyright">Created by James Au @ 2018</p>
+    </div>
+</body>
+<script>
+    // ScrollReveal().reveal('.navigation-bar', { delay: 800, duration: 1000 });
+    // ScrollReveal().reveal('.main-frame', { delay: 1500, duration: 3000 });
+    // ScrollReveal().reveal('.content', { delay: 800, duration: 2000 });
+</script>
+
+</html>
