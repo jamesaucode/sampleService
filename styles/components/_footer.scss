@@ -40,7 +40,7 @@
         font-weight: 400;
         text-align: left;
         color: $color-grey-light-2;
-        margin:$small-gutter auto $medium-gutter auto;
+        margin:$small-gutter auto $small-gutter auto;
 
         &--header {
             margin-top: $small-gutter;
@@ -103,6 +103,7 @@
         &__text {
             // margin:0;
             text-align: center;
+            margin-bottom: 0;
             // margin-left: $small-gutter;
             // margin-right: $small-gutter;
             &--header {
