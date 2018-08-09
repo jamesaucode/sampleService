@@ -85,7 +85,7 @@ button:disabled {
   .main-frame__title {
     font-size: 3em;
     font-weight: 700;
-    color: #5f5f5f;
+    color: black;
     margin: auto 2.5em 1.25em 2.5em; }
   .main-frame::after {
     content: "";
@@ -149,7 +149,7 @@ button:disabled {
     display: flex;
     flex-direction: column;
     margin: 5em 0;
-    background-color: #01f021;
+    background-color: #01db1e;
     min-width: 100%;
     min-height: fit-content; }
     .content--graph-box__title {
@@ -159,6 +159,7 @@ button:disabled {
     .content--graph-box__caption {
       text-align: left;
       font-size: 0.9em;
+      color: #5f5f5f;
       margin: 1.25em auto;
       font-weight: 400;
       width: 20em; }
@@ -190,7 +191,7 @@ button:disabled {
     font-weight: 700;
     margin: 0; }
   .content__paragraph {
-    font-size: 1.25em;
+    font-size: 1em;
     color: #5f5f5f;
     font-weight: 400;
     margin: 2.5em 0;
@@ -238,6 +239,7 @@ button:disabled {
   font-size: 2em;
   padding: 0; }
   .fa-facebook, .fa-twitter, .fa-github {
+    font-size: 1.5em;
     color: #c9c9c9;
     margin: 0 1.25em; }
   .fa-comment-o, .fa-briefcase, .fa-usd, .fa-user-o {
@@ -327,10 +329,10 @@ button:disabled {
     grid-area: social; }
   .foot__copyright {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center; }
   .foot__text {
-    font-size: 1em;
+    font-size: 0.8em;
     width: 20em;
     font-weight: 400;
     text-align: left;

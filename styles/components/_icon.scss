@@ -4,6 +4,7 @@
     // line-height: inherit;
     padding: 0;
     &-facebook,&-twitter,&-github  {
+        font-size: 1.5em;
         color:$color-grey-light-2;
        margin: 0 $small-gutter;
     }
