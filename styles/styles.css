@@ -4,7 +4,7 @@
   padding: 0; }
 
 html {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 300;
   max-width: 100vw;
@@ -45,7 +45,7 @@ button:disabled {
   background-color: white; }
 
 .social-media {
-  margin-top: 20px;
+  margin-top: 1.25em;
   display: flex;
   height: inherit;
   align-items: center;
@@ -57,7 +57,7 @@ button:disabled {
   text-transform: uppercase;
   height: fit-content;
   font-weight: 500;
-  margin: 0 40px;
+  margin: 0 2.5em;
   text-decoration: none;
   color: black; }
   .navigation:hover {
@@ -87,7 +87,7 @@ button:disabled {
     font-size: 3em;
     font-weight: 700;
     color: #5f5f5f;
-    margin: auto 40px 20px 80px; }
+    margin: auto 2.5em 1.25em 5em; }
   .main-frame::after {
     content: "";
     background-image: url(./../image/shop.jpg);
@@ -108,7 +108,7 @@ button:disabled {
   font-weight: 500;
   padding: 1rem 2.5rem;
   background-color: #b500d4;
-  margin: 20px auto auto 80px;
+  margin: 1.25em auto auto 5em;
   border: 0;
   color: #ffffff;
   transition: all 0.5s ease-out; }
@@ -130,7 +130,7 @@ button:disabled {
     font-weight: 500;
     padding: 1rem 2.5rem;
     background-color: #0020d4;
-    margin: 40px 0;
+    margin: 2.5em 0;
     border: 0;
     color: #ffffff;
     transition: all 0.5s ease-out; }
@@ -141,14 +141,14 @@ button:disabled {
       transform: translateY(0); }
   .content--text-box {
     grid-area: text;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 5em;
+    margin-left: 5em;
     min-width: 100%; }
   .content--graph-box {
     grid-area: graph;
     display: flex;
     flex-direction: column;
-    margin: 80px 40px;
+    margin: 5em 2.5em;
     background-color: #01f021;
     min-width: 100%;
     min-height: fit-content; }
@@ -158,9 +158,9 @@ button:disabled {
       text-align: center; }
     .content--graph-box__caption {
       text-align: left;
-      margin: 20px auto;
+      margin: 1.25em auto;
       font-weight: 400;
-      width: calc(1em * 20); }
+      width: fit-content; }
     .content--graph-box__icon1 {
       display: flex;
       align-items: center;
@@ -177,10 +177,12 @@ button:disabled {
       align-items: center; }
     .content--graph-box__wrapper {
       text-align: center;
-      margin: 40px 0; }
+      margin: 2.5em 2.5em;
+      height: 12em; }
     .content--graph-box__wrapper2 {
       text-align: center;
-      margin: 40px 0; }
+      margin: 2.5em 2.5em;
+      height: 12em; }
   .content__title {
     font-size: 3em;
     color: black;
@@ -190,7 +192,7 @@ button:disabled {
     font-size: 1em;
     color: #5f5f5f;
     font-weight: 400;
-    margin: 40px 0;
+    margin: 2.5em 0;
     width: 70%; }
 
 @media screen and (max-width: 688px) {
@@ -203,11 +205,11 @@ button:disabled {
       margin-left: 0;
       margin-right: 0; }
     .content--graph-box {
-      margin: 40px 0; }
+      margin: 2.5em 0; }
       .content--graph-box__caption {
         margin: 0;
         text-align: center;
-        margin: 20px auto;
+        margin: 1.25em auto;
         width: calc(1em * 8); }
     .content--text-box {
       display: flex;
@@ -217,7 +219,7 @@ button:disabled {
     .content__paragraph {
       width: 80%;
       text-align: left;
-      margin: 40px auto; }
+      margin: 2.5em auto; }
     .content__button {
       margin: 0 auto; }
   .main-frame {
@@ -226,7 +228,7 @@ button:disabled {
     .main-frame__title {
       text-align: center;
       margin: 0;
-      margin-bottom: 20px; }
+      margin-bottom: 1.25em; }
   .button--enter {
     margin: 0; } }
 
@@ -236,7 +238,7 @@ button:disabled {
   padding: 0; }
   .fa-facebook, .fa-twitter, .fa-github {
     color: #c9c9c9;
-    margin: 0 20px; }
+    margin: 0 1.25em; }
   .fa-comment-o, .fa-briefcase, .fa-usd, .fa-user-o {
     font-size: 3em; }
   .fa-arrow-left {
@@ -246,31 +248,31 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 2.5em;
   height: fit-content;
   max-width: 100vw; }
   .content2__customer {
     display: flex;
     justify-content: center;
-    margin: 80px 0; }
+    margin: 5em 0; }
   .content2__name {
     font-size: 1.8em;
     font-weight: 500;
-    margin-left: 40px; }
+    margin-left: 2.5em; }
   .content2__paragraph {
-    margin: 20px;
+    margin: 1.25em;
     color: #7c7c7c;
     font-style: italic;
     max-width: calc(1em * 30);
     line-height: 1.8em;
     font-weight: 500; }
   .content2__title {
-    margin: 80px 20px 0 20px;
+    margin: 5em 1.25em 0 1.25em;
     font-size: 3em;
     font-weight: 700; }
 
 .avatar {
-  margin-top: 40px;
+  margin-top: 2.5em;
   height: 128px;
   width: 128px;
   background-color: #eeeeee;
@@ -280,7 +282,7 @@ button:disabled {
   .content2__customer {
     flex-direction: column;
     align-items: center;
-    margin: 20px 0 0 0; }
+    margin: 1.25em 0 0 0; }
   .content2__name {
     margin: 0; }
   .content2__title {
@@ -315,7 +317,7 @@ button:disabled {
   grid-template-areas: " . follow about social . ";
   grid-template-columns: repeat(5, 1fr);
   grid-row: auto;
-  grid-column-gap: 20px; }
+  grid-column-gap: 1.25em; }
   .foot__about {
     grid-area: about; }
   .foot__follow {
@@ -331,10 +333,10 @@ button:disabled {
     font-weight: 400;
     text-align: left;
     color: #c9c9c9;
-    margin: 20px 0 40px 0; }
+    margin: 1.25em 0 2.5em 0; }
     .foot__text--header {
-      margin-top: 20px;
-      margin-left: 20px;
+      margin-top: 1.25em;
+      margin-left: 1.25em;
       text-align: center;
       font-size: 1.5em;
       font-weight: 700; }
@@ -342,7 +344,7 @@ button:disabled {
 .contact {
   display: grid;
   max-width: 500px;
-  margin: 20px auto;
+  margin: 1.25em auto;
   grid-template-areas: "fname lname" "email tel" "msg msg" "msg msg";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 30px) 100px;
@@ -365,7 +367,7 @@ button:disabled {
   .contact__title {
     font-size: 3em;
     font-weight: 700;
-    margin: 20px 0;
+    margin: 1.25em 0;
     text-align: center; }
 
 @media screen and (max-width: 688px) {
@@ -373,15 +375,15 @@ button:disabled {
     grid-template-areas: "follow" "about" "social";
     grid-template-columns: 1fr;
     grid-template-rows: 5em;
-    grid-row-gap: 20px; }
+    grid-row-gap: 1.25em; }
     .foot__text {
       margin: 0;
       text-align: center;
-      margin-left: 20px;
-      margin-right: 20px; }
+      margin-left: 1.25em;
+      margin-right: 1.25em; }
       .foot__text--header {
         margin: 0;
-        margin-top: 20px; } }
+        margin-top: 1.25em; } }
 
 .disappear {
   transition: all 0.5s ease-out;
@@ -393,7 +395,7 @@ button:disabled {
   grid-template-columns: 1fr 1fr 1fr;
   grid-row: auto; }
   .cards__title {
-    margin-top: 40px;
+    margin-top: 2.5em;
     font-size: 1.6em;
     text-align: center;
     font-weight: 600;
@@ -404,7 +406,7 @@ button:disabled {
     padding: 10px;
     border: 0;
     border-radius: 3px;
-    margin-top: 20px;
+    margin-top: 1.25em;
     width: 20em;
     color: black; }
   .cards__photo {
@@ -413,20 +415,20 @@ button:disabled {
   .cards__text-box {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    margin-top: 20px; }
+    margin-top: 1.25em; }
   .cards__caption {
     font-size: 1.25em;
     font-weight: 400;
     text-align: center;
     color: white;
-    margin: 20px 0; }
+    margin: 1.25em 0; }
   .cards__button {
     border: 0;
     background-color: #ffffff;
     color: #5f5f5f;
     font-size: 1em;
     text-align: center;
-    margin: 80px 0;
+    margin: 5em 0;
     padding: 1em;
     width: 50%;
     border-radius: 2rem;
@@ -437,7 +439,7 @@ button:disabled {
       width: fit-content;
       border-radius: 20px;
       margin: 0;
-      margin-bottom: 20px;
+      margin-bottom: 1.25em;
       border: 0;
       background-color: #ffffff;
       color: #5f5f5f;
@@ -462,7 +464,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   background-color: #b401b4;
   transform: rotateY(0deg);
   transition: all 1s; }
@@ -476,7 +478,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   background-color: #b401b4;
   transition: all 1s; }
 
@@ -489,7 +491,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   background-color: #0059ff;
   transform: rotateY(0deg);
   transition: all 1s; }
@@ -503,7 +505,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   background-color: #0059ff;
   transition: all 1s; }
 
@@ -516,7 +518,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   transform: rotateY(0deg);
   background-color: #01a501; }
 
@@ -529,7 +531,7 @@ button:disabled {
   border-radius: 5px;
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
   max-width: 100%;
-  margin: 40px;
+  margin: 2.5em;
   background-color: #01a501; }
 
 @media screen and (max-width: 688px) {
@@ -537,7 +539,7 @@ button:disabled {
     grid-template-areas: "card1" "card2" "card3";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-row-gap: 40px; }
+    grid-row-gap: 2.5em; }
   .card1, .card2, .card3 {
     margin: 0;
     height: 50em; } }

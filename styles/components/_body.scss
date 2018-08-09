@@ -98,7 +98,7 @@
       text-align: left;
       margin: $small-gutter auto;
       font-weight: 400;
-      width:calc(1em * 20);
+      width:fit-content;
     }
     &__icon1 {
       display: flex;
@@ -118,11 +118,13 @@
     }
     &__wrapper {
       text-align: center;
-      margin: $medium-gutter 0;
+      margin: $medium-gutter $medium-gutter;
+      height: 12em;
     }
     &__wrapper2 {
       text-align: center;
-      margin: $medium-gutter 0;
+      margin: $medium-gutter $medium-gutter;
+      height: 12em;
     }
   }
   &__title {
