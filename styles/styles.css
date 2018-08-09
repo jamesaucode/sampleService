@@ -373,7 +373,7 @@ button:disabled {
 @media screen and (max-width: 688px) {
   .foot {
     grid-template-areas: "follow" "about" "social";
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 5em;
     grid-row-gap: 1.25em; }
     .foot__text {
