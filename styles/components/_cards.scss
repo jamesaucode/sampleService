@@ -11,19 +11,19 @@
     font-weight: 600;
     color: white;
     &--back {
-      margin-top: 160px;
+      margin-top: 10em;
     }
   }
   &__input {
-    padding: 10px;
+    padding: 0.625em;
     border: 0;
-    border-radius: 3px;
+    border-radius: 0.1875em;
     margin-top: $small-gutter;
-    width: 20em;
+    width: 80%;
     color: black;
   }
   &__photo {
-    height: 300px;
+    height: 22.5em;
     width: 100%;
   }
   &__text-box {
@@ -42,7 +42,7 @@
     border: 0;
     background-color: #ffffff;
     color: $color-grey-dark;
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
     margin: $big-gutter 0;
     padding: 1em;
@@ -51,15 +51,15 @@
     transition: all 0.5s ease-out;
     &--back {
       transition: all 0s;
-      padding: 10px 50px;
+      padding: 0.625em 3.125em;
       width: fit-content;
       border-radius: 20px;
       margin: 0;
-      margin-bottom: $small-gutter;
+      margin-bottom: $big-gutter;
       border: 0;
       background-color: #ffffff;
       color: $color-grey-dark;
-      font-size: 1em;
+      font-size: 1.25em;
       &:active {
         opacity: 0;
       }
@@ -84,6 +84,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
     max-width: 100%;
@@ -96,6 +97,7 @@
     grid-area: card1;
     border: 1px solid lightgrey;
     // height: fit-content;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,6 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
     max-width: 100%;
@@ -127,6 +130,7 @@
     border: 1px solid lightgrey;
     // height: fit-content;
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
@@ -153,6 +157,7 @@
     border: 1px solid lightgrey;
     display: flex;
     flex-direction: column;
+    height: 100%;
     align-items: center;
     border-radius: 5px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.15);
@@ -165,6 +170,7 @@
     grid-area: card3;
     border: 1px solid lightgrey;
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
@@ -183,11 +189,11 @@
       "card2"
       "card3";
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    // grid-template-rows: auto;
     grid-row-gap: $medium-gutter;
   }
   .card1,.card2,.card3 {
-    margin: 0;
-    height: 50em;
+    margin: 0 auto;
+    width: 80%;
   }
 }

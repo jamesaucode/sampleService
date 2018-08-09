@@ -19,7 +19,7 @@ textarea {
 }
 
 body {
-  font-size: 1em;
+  font-size: calc(0.6em + 0.5vw);
 }
 
 button {
@@ -29,3 +29,9 @@ button {
 button:disabled {
   cursor: default;
 }
+
+// @media screen and (max-width: 688px) {
+//   html {
+//     font-size: 0.8rem;
+//   }
+// }

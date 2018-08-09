@@ -21,12 +21,12 @@
         margin: $small-gutter;
         color: $color-grey;
         font-style: italic;
-        max-width: calc(1em * 30);
+        max-width: calc(1em * 40);
         line-height: 1.8em;
         font-weight: 500;
     }
     &__title {
-        margin: $big-gutter $small-gutter 0 $small-gutter;
+        margin: $medium-gutter $small-gutter 0 $small-gutter;
         font-size: 3em;
         font-weight: 700;
     }
