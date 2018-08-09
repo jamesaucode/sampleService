@@ -14,7 +14,7 @@
 .foot {
     display:grid;
     height: fit-content;
-    grid-template-areas: " . about follow social . ";
+    grid-template-areas: " . follow about social . ";
     grid-template-columns: repeat(5,1fr);
     grid-row: auto;
     grid-column-gap: $small-gutter;
@@ -30,6 +30,7 @@
     }
     &__copyright {
         color:white;
+        font-size: 0.8em;
         text-align: center;
     }
     &__text {
@@ -84,5 +85,12 @@
         font-weight: 700;  
         margin: $small-gutter 0;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .foot {
+        grid-template-areas: "follow about social";
+        grid-template-columns: repeat(3,1fr);
     }
 }

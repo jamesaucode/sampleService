@@ -147,11 +147,11 @@
 
 @media screen and (max-width: 688px) {
   .content {
-    grid-template-areas: 
-    "text text text"
-    "text text text"
-    "graph graph graph"
-    "graph graph graph";
+    grid-template-areas:
+      "text text text"
+      "text text text"
+      "graph graph graph"
+      "graph graph graph";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 
@@ -161,7 +161,7 @@
       margin-right: 0;
     }
     &--text-box {
-      display:flex;
+      display: flex;
       flex-direction: column;
       margin-left: 0;
     }
@@ -177,4 +177,18 @@
       margin: 0 auto;
     }
   }
+  .main-frame {
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+      text-align: center;
+      margin:0;
+      margin-bottom: $small-gutter;
+    }
+  }
+  .button--enter {
+    margin: 0;
+  }
+  
 }
