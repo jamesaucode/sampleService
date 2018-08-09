@@ -175,9 +175,11 @@ button:disabled {
       display: flex;
       align-items: center; }
     .content--graph-box__wrapper {
-      text-align: center; }
+      text-align: center;
+      margin: 40px 0; }
     .content--graph-box__wrapper2 {
-      text-align: center; }
+      text-align: center;
+      margin: 40px 0; }
   .content__title {
     font-size: 3em;
     color: black;

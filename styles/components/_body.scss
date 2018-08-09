@@ -117,11 +117,11 @@
     }
     &__wrapper {
       text-align: center;
-      // margin: $small-gutter;
+      margin: $medium-gutter 0;
     }
     &__wrapper2 {
       text-align: center;
-      // margin: auto 0;
+      margin: $medium-gutter 0;
     }
   }
   &__title {
@@ -161,6 +161,13 @@
     }
     &--graph-box {
       margin: $medium-gutter 0;
+
+      // &__wrapper {
+      //   margin: 0;
+      // }
+      // &__wrapper2 {
+      //   margin: 0;
+      // }
     }
     &--text-box {
       display: flex;
