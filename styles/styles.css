@@ -194,7 +194,7 @@ button:disabled {
   .content {
     grid-template-areas: "text text" "graph graph";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto; }
+    grid-template-rows: fit-content; }
     .content__title {
       text-align: center;
       margin-left: 0;

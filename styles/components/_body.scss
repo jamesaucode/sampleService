@@ -150,7 +150,7 @@
       "text text"
       "graph graph";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: fit-content;
 
     &__title {
       text-align: center;
