@@ -100,10 +100,13 @@
         grid-row-gap: $small-gutter;
 
         &__text {
+            margin:0;
+            text-align: center;
             margin-left: $small-gutter;
             margin-right: $small-gutter;
             &--header {
                 margin:0;
+                margin-top: $small-gutter;
             }
         }
     }

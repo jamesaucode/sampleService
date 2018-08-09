@@ -152,7 +152,7 @@
       "text text text"
       "graph graph graph"
       "graph graph graph";
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
 
     &__title {
