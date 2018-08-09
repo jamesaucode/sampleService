@@ -398,7 +398,7 @@ button:disabled {
     width: 20em;
     color: black; }
   .cards__photo {
-    height: 400px;
+    height: 300px;
     width: 100%; }
   .cards__text-box {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -529,4 +529,4 @@ button:disabled {
     grid-template-rows: auto; }
   .card1, .card2, .card3 {
     margin: 0;
-    height: 55em; } }
+    height: 50em; } }
