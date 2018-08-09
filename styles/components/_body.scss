@@ -96,8 +96,9 @@
     }
     &__caption {
       text-align: left;
-      margin: $small-gutter;
+      margin: $small-gutter auto;
       font-weight: 400;
+      width:calc(1em * 20);
     }
     &__icon1 {
       display: flex;
@@ -132,7 +133,6 @@
   }
   &__paragraph {
     font-size: 1em;
-    letter-spacing: 0.5px;
     color: $color-grey-dark;
     font-weight: 400;
     margin: $medium-gutter 0;
@@ -161,13 +161,12 @@
     }
     &--graph-box {
       margin: $medium-gutter 0;
-
-      // &__wrapper {
-      //   margin: 0;
-      // }
-      // &__wrapper2 {
-      //   margin: 0;
-      // }
+      &__caption {
+        margin: 0;
+        text-align: center;
+        margin: $small-gutter auto;
+        width:calc(1em * 8);
+      }
     }
     &--text-box {
       display: flex;

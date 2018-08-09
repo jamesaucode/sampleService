@@ -158,8 +158,9 @@ button:disabled {
       text-align: center; }
     .content--graph-box__caption {
       text-align: left;
-      margin: 20px;
-      font-weight: 400; }
+      margin: 20px auto;
+      font-weight: 400;
+      width: calc(1em * 20); }
     .content--graph-box__icon1 {
       display: flex;
       align-items: center;
@@ -187,7 +188,6 @@ button:disabled {
     margin: 0; }
   .content__paragraph {
     font-size: 1em;
-    letter-spacing: 0.5px;
     color: #5f5f5f;
     font-weight: 400;
     margin: 40px 0;
@@ -204,6 +204,11 @@ button:disabled {
       margin-right: 0; }
     .content--graph-box {
       margin: 40px 0; }
+      .content--graph-box__caption {
+        margin: 0;
+        text-align: center;
+        margin: 20px auto;
+        width: calc(1em * 8); }
     .content--text-box {
       display: flex;
       flex-direction: column;
@@ -255,6 +260,7 @@ button:disabled {
   .content2__paragraph {
     margin: 20px;
     color: #7c7c7c;
+    font-style: oblique;
     max-width: calc(1em * 30);
     line-height: 1.8em;
     font-weight: 500; }
@@ -274,7 +280,7 @@ button:disabled {
   .content2__customer {
     flex-direction: column;
     align-items: center;
-    margin: 20px 0; }
+    margin: 20px 0 0 0; }
   .content2__name {
     margin: 0; }
   .content2__title {
